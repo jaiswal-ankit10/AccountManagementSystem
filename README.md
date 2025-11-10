@@ -24,7 +24,7 @@ This project is a React application (V16+) that allows users to create and manag
 
    - Users can create an account by entering an email and password.
    - The account details are saved in localStorage.
-   - A “Back to Home” button is present on the top-left corner.
+   - A “Home” button is present on the top-left corner.
 
 3. **Account Information Page**
    - Displays the logged-in user’s username, fullname, email and password.
