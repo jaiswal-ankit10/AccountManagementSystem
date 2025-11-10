@@ -47,6 +47,15 @@ const Signup = () => {
               className="w-full rounded-lg border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-100 transition"
               {...register("name", { required: true })}
             />
+            <label className="block text-gray-700 font-medium mb-1 mt-1">
+              Username
+            </label>
+            <Input
+              type="text"
+              placeholder="Enter your username"
+              className="w-full rounded-lg border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-100 transition"
+              {...register("username", { required: true })}
+            />
           </div>
 
           <div>
