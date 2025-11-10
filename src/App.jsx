@@ -3,6 +3,7 @@ import SignUp from "./pages/SignUp";
 import Login from "./pages/Login";
 import Home from "./pages/Home";
 import AccountDetail from "./pages/AccountDetail";
+import NotFound from "./pages/NotFound";
 function App() {
   const router = createBrowserRouter([
     {
@@ -23,11 +24,7 @@ function App() {
     },
     {
       path: "*",
-      element: (
-        <div className="flex items-center justify-center pt-110 text-4xl font-semibold">
-          404 Not Found
-        </div>
-      ),
+      element: <NotFound />,
     },
   ]);
   return (
